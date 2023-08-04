@@ -1,0 +1,109 @@
+ .info-products {
+    /* flex: 1; */
+    width: 70%;
+}
+
+.img-products {
+    background-image: url(/asset/upload/img/Khoa-cua-van-tay-42FB.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 500px;
+}
+
+.conten-products{
+    gap: 40px;
+}
+
+.info-products h2 {
+    color: #fff;
+}
+
+.info-products p,ul {
+    color: #777777;
+    list-style-type: none;
+}
+
+.info-products span {
+    color: #ee8379;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.info-products del {
+    color: #777;
+    font-size: 19.2px;
+    font-weight: 600;
+}
+
+.btn-add-to-cart {
+    border-top: 1px solid rgba(153, 153, 153, 0.338);
+    border-bottom: 1px solid rgba(153, 153, 153, 0.338);
+    padding: 20px 0;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-add-to-cart button {
+    padding: 20px;
+    width: 300px;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-add-to-cart button:hover {
+    background-color: #006cd9;
+}   
+
+.mo-ta-san-pham ul {
+    gap: 20px;
+   /* padding-bottom: 20px; */
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.mo-ta-san-pham {
+    margin: 30px 0;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.338);
+}
+
+.mo-ta-san-pham ul li:nth-child(1) {
+   border-bottom: 1px solid #fff;
+   z-index: 1;
+   padding-bottom: 20px;
+   color: #fff;  
+}
+
+.san-pham-tuong-tu {
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cham-slider {
+    padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #0078f2;
+}
+
+@media screen and (max-width: 768px) {
+    .conten-products {
+        flex-direction: column;
+    }
+    .btn-add-to-cart {
+        flex-direction: column;
+    } 
+
+    .img-products {
+        width: 100%;
+    }
+
+    .info-products {
+        width: 100%;
+    }
+
+    .btn-add-to-cart button {
+        width: 100%;
+    }
+}

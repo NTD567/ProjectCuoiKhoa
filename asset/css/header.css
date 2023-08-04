@@ -1,0 +1,173 @@
+header{
+    background-color:white;
+}
+.top-welcome {
+    height: 50px;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome>div {
+    border-right: 1px solid rgba(77, 73, 73, 0.724);
+    padding-right: 10px;
+}
+
+.welcome div,
+.welcome a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    margin: 5px;
+    color: #383535;
+}
+
+.welcome a {
+    color: #0078f2;
+    text-decoration: none;
+    font-weight: 700;
+    
+    
+}
+
+.currency {
+    color: #252424;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.hearder-main {
+    background-color: white;
+    height: 91px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.hearder-main  img.logo {
+    height: 90px;
+}
+
+.menu-mobile {
+    display: none;
+}
+.nav  {
+    color: #fffbfb;
+    position: relative;
+}
+
+.nav .game-icon {
+    font-size: 30px;
+    padding-right: 10px;  
+}
+
+li .proucts-icon {
+    font-size: 30px;
+    padding-right: 10px;
+    
+}
+
+li .ti-angle-down {
+    font-size: 10px;
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 0 20px;
+    height: 91px;
+}
+
+.nav li>a {
+    text-decoration: none;
+    color: #302e2e;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav li:hover {
+    background-color: #0078f2;
+}
+
+.nav-user li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.nav-user li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-user li .icon-user {
+    font-size: 28px;
+}
+
+.nav-user li .icon-search {
+    font-size: 28px;
+}
+
+.nav-user li .icon-heart {
+    font-size: 28px;
+}
+
+.nav-user li .icon-shopping-cart {
+    font-size: 28px;
+}
+.nav-user .icon{
+    color: #696969;
+}
+.sub-nav-game-main {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    display: none;
+
+}
+
+.sub-li-game:hover .sub-nav-game-main {
+    display: block;
+    z-index: 1;
+
+}
+
+.sub-nav-game {
+    background-color: #f7f0f0;
+    width: 800px;
+    border-top: 6px solid #0078f2 ;
+}
+
+.sub-nav-game a {
+    display: block;
+    color: #696969;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.sub-nav-game-list {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.sub-nav-game-col1 {
+    margin-right: 40px;
+}
+
+.sub-nav-produtcts-main {
+    position: absolute;
+    left: 148px;
+    top: 90px;
+    display: none;
+
+}
+
+.sub-li-produtcts:hover .sub-nav-produtcts-main {
+    display: block;
+    z-index: 1;
+}
+
+
+ 

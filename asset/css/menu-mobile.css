@@ -1,0 +1,35 @@
+.menu-mobile-conten {
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(19, 130, 226);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+
+.tim-kiem {
+    box-shadow: 0 0 16px rgb(17, 12, 12);
+}
+
+.menu-mobile-conten input {
+    height: 40px;
+}
+
+.menu-mobile-conten ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.menu-mobile-conten li {
+    padding: 10px 0;
+    border-top: 1px solid;
+}
+
+.menu-mobile-conten li a {
+    color: #ffff;
+    text-decoration: none;
+}

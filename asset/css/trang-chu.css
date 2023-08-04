@@ -1,0 +1,346 @@
+
+
+.banner-grid {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.banner-col-1 {
+    width: 60%;
+    height: 500px;
+}
+
+.banner-col-2 {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    width: 40%;
+    height: 440px;
+    justify-content: space-between;
+}
+.banner-1 {
+    height: 440px;
+    position: relative;
+    background-image: url(/asset/upload/img/Khoa-cua-chinh-cho-nha-pho-cao-cap-KTW5260-10.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.banner-1:hover {
+    box-shadow: 0px 0px 20px 0px rgb(255 255 255 / 10%);
+}
+
+.banner-2 {
+    position: relative;
+    background-color: #181a1c;
+    min-height: 210px;
+    background-image: url(/asset/upload/img/Khoa-cua-tay-gat-toi-gian-sang-trong-A18512-3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-2:hover {
+    box-shadow: 0px 0px 20px 0px rgb(255 255 255 / 10%);
+}
+
+.banner-3 {
+    position: relative;
+    min-height: 210px;
+    background-image: url(/asset/upload/img/Khoa-cua-tay-gat-kieu-Y-toi-gian-THY60.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-3:hover {
+    box-shadow: 0px 0px 20px 0px rgb(255 255 255 / 10%);
+}
+
+.banner {
+    position: relative;
+}
+
+.conten-banner1 {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 38%;
+    text-align: right;
+}
+
+.shopnow-banner1 {
+    display: inline-block;
+    background-color: black;
+    padding: 20px 40px;
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.conten-banner2 {
+    color: #fff;
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.conten-banner3 {
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.icon-shiping {
+    font-size: 35px;
+    line-height: inherit;
+    color: #0078f2;
+}
+
+.sevice {
+    justify-content: space-around;
+}
+
+.conten-service {
+    padding: 20px 0px;
+    
+}
+
+.free-shiping h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 0 3px;
+    color: #fff;
+    letter-spacing: normal;
+}
+
+.free-shiping p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #839199;
+    letter-spacing: .07px;
+}
+
+.back-money h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 0 3px;
+    color: #fff;
+    letter-spacing: normal;
+}
+
+.back-money p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #839199;
+    letter-spacing: .07px;
+}
+
+.online-support h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 0 3px;
+    color: #fff;
+    letter-spacing: normal;
+}
+
+.online-support p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #839199;
+    letter-spacing: .07px;
+}
+ 
+.menu-game-1 h1 {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+}
+
+.title-menu {
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.conten-game-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.title-menu-2 {
+    margin: 30px 0;
+}
+
+.title-menu-2 h1 {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+}
+
+.title-menu-2 a {
+    text-decoration: none;
+    color: #0078f2;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.game-moi {
+    text-align: center;
+    gap: 20px;
+}
+
+.game-moi-col1 {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.cham-slider {
+    padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #0078f2;
+}
+
+.game-moi-col1 a {
+    font-size: 30px;
+}
+
+
+.game-moi-col1 img {
+    width: 100%;
+    
+}
+.game-moi-col2 {
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-moi-2 {
+    flex-direction: row-reverse;
+    text-align: center;
+    gap: 18px;
+}
+.khoavantay, .khoaco {
+    max-width: 1200px;
+    margin: auto;
+}
+.container-service{
+    
+    max-width: 1200px;
+    margin:50px auto;
+}
+
+    /* responsive tablet  */
+@media screen and (max-width: 768px) {
+    /* responsive Menu */
+    .top-welcome {
+        display: none;
+    }
+    
+    .hearder-main {
+        position: sticky;
+        background-color: white;
+    }
+    .nav {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: block;
+    }
+    .proucts-icon,.icon-menu-mobile {
+        font-size: 28px;
+        color: #fff; 
+    }
+
+    .header-main-conten {
+        justify-content: space-around;
+    }
+
+    .nav-user li:nth-child(1) {
+        display: none;
+    }
+    .nav-user li:nth-child(2) {
+        display: none;
+    }
+    .nav-user li:nth-child(3) {
+        display: none;
+    }
+    /* ket thuc menu */
+
+    .banner-grid {
+        flex-direction: column;
+    }
+
+    .banner-col-1 {
+        height: 440px;
+        width: 100%;
+    }
+    .banner-col-2 {
+        width: 100%;
+    }
+    .sevice {
+        flex-direction: column;
+        margin: 0;
+    }
+    .conten-service {
+    width: 80%;
+    border-bottom: 1px solid #f7f8fa;
+    margin: auto;
+    border-bottom: 1px solid #f3f5f8;
+    }
+
+    .sevice {
+        align-items: center;
+    }
+    
+    
+
+    .game {
+        width: 46%;
+    }
+
+    .quang-cao {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+        line-height: 40px;
+    }
+
+    .game-moi {
+        flex-direction: column;
+    }
+
+    .game-moi-col1 {
+        width: 100%;
+    }
+
+    .game-moi-col2 {
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .game-moi-2{
+        flex-direction: column;
+    }
+}

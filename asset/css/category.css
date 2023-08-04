@@ -1,0 +1,65 @@
+.left-sidebar {
+  width: 20%;
+  margin-right: 30px;
+}
+
+.widget-title {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  border-bottom: 1px solid #303438 !important;
+  padding-bottom: 6px !important;
+}
+
+.conten-category {
+  width: 80%;
+}
+
+.game-category {
+  width: 100% !important;
+}
+
+.product-sort {
+  margin-bottom: 20px;
+}
+
+.sort-by label {
+  color: #777777;
+  margin-right: 10px;
+}
+
+.sort-by select {
+  color: #999;
+  background-color: #303438;
+  border: none;
+  height: 30px;
+  width: 200px;
+}
+
+.list-category {
+  list-style-type: none;
+  color: #777777;
+}
+
+.list-category li {
+margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .left-sidebar {
+    display: none;
+  }
+
+  .breadcrumb {
+    justify-content: center;
+  }
+
+  .product-sort {
+    justify-content: center;
+  }
+
+  .conten-category {
+    width: 100%;
+  }
+}

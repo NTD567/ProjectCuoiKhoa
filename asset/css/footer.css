@@ -1,0 +1,90 @@
+footer {
+    background-color: #e0dfdf;
+}
+
+.footer-tren a {
+    color: #272626;
+    padding: 40px 20px;
+}
+
+.footer-duoi {
+    padding: 30px;
+    align-items: center;
+}
+
+.footer-duoi .logo-fb {
+    height: 60px;
+    padding-right: 100px;
+    margin-right: 40px;
+    border-right: 1px solid rgba(153, 153, 153, 0.295);
+}
+
+footer hr {
+    border: 1px solid rgba(133, 130, 130, 0.445);
+}
+
+.icon-mxh {
+    margin-right: 500px;
+}
+.khoi-icon {
+    align-items: center;
+}
+.icon-mxh span {
+    padding: 10px;
+    border: rgba(153, 153, 153, 0.178) solid 1px;
+    border-radius: 100px;
+    background-color: #232324;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon-facebook,.icon-twitter,.instargram {
+    font-size: 20px;
+    color: #ffff;
+}
+
+
+.icon-fb:hover {
+    background-color: rgb(77, 77, 219);
+}
+
+.icon-twi:hover {
+    background-color: rgb(8, 162, 233);
+}
+
+.icon-inst:hover {
+    background-color: #631700;
+}
+
+@media screen and (max-width: 768px) {
+    /* responsive Menu */
+    .footer-tren {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-duoi {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .icon-mxh {
+        margin-right: 0
+    }
+
+    .khoi-icon {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .footer-duoi .logo-fb {
+        border: none;
+    }
+
+    .footer-tren a {
+        padding: 20px;
+    }
+}
